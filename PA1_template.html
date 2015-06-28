@@ -240,8 +240,8 @@ hist(totalStepsPerDayFill$total_steps, breaks=10,
 <pre class="r"><code>Sys.setlocale(&quot;LC_TIME&quot;, &quot;en_US&quot;);</code></pre>
 <pre><code>## [1] &quot;en_US&quot;</code></pre>
 <pre class="r"><code>weekdays(Sys.Date()+0:6);</code></pre>
-<pre><code>## [1] &quot;Sunday&quot;    &quot;Monday&quot;    &quot;Tuesday&quot;   &quot;Wednesday&quot; &quot;Thursday&quot;  &quot;Friday&quot;   
-## [7] &quot;Saturday&quot;</code></pre>
+<pre><code>## [1] &quot;Tuesday&quot;   &quot;Wednesday&quot; &quot;Thursday&quot;  &quot;Friday&quot;    &quot;Saturday&quot;  &quot;Sunday&quot;   
+## [7] &quot;Monday&quot;</code></pre>
 <p>To create the factor values I will use the following function.</p>
 <pre class="r"><code>getDayType &lt;- function(date){
     dayType &lt;- &quot;weekday&quot;;

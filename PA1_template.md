@@ -296,8 +296,8 @@ weekdays(Sys.Date()+0:6);
 ```
 
 ```
-## [1] "Sunday"    "Monday"    "Tuesday"   "Wednesday" "Thursday"  "Friday"   
-## [7] "Saturday"
+## [1] "Tuesday"   "Wednesday" "Thursday"  "Friday"    "Saturday"  "Sunday"   
+## [7] "Monday"
 ```
 
 To create the factor values I will use the following function.
